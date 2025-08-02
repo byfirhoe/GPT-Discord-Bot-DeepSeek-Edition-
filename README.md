@@ -2,8 +2,6 @@
 
 Un bot de Discord que utiliza el modelo `deepseek-chat` para mantener conversaciones naturales y continuar contextos en tiempo real. Este bot responde a los mensajes enviados en canales específicos o cuando se le menciona, simulando una personalidad amigable y orientada al roleplay.
 
----
-
 ## ✨ Características
 
 - 💬 Conversación contextual basada en los últimos 10 mensajes del canal.
@@ -13,8 +11,6 @@ Un bot de Discord que utiliza el modelo `deepseek-chat` para mantener conversaci
 - 📡 Indica que está escribiendo (`sendTyping`) durante el procesamiento.
 - 🧵 Divide respuestas largas en múltiples mensajes para respetar el límite de Discord (2000 caracteres).
 
----
-
 ## 🔧 Requisitos
 
 - Node.js v18 o superior
@@ -22,14 +18,10 @@ Un bot de Discord que utiliza el modelo `deepseek-chat` para mantener conversaci
 - Token de bot de Discord
 - Clave API de DeepSeek u OpenRouter
 
----
-
 ## 📁 Estructura
 
 - `index.js`: Lógica principal del bot.
 - `.env`: Contiene variables sensibles como `TOKEN` y `OPENAI_KEY`.
-
----
 
 ## 🚀 Instalación
 
